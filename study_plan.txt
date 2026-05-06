@@ -1,7 +1,7 @@
 Study Plan for pre Calculus
 
-📅 Day 1: Limits
-📅 Day 2: Graphing
+📅 Day 1: graphing
+📅 Day 2: Limits
 📅 Day 3: Review
 📅 Day 4: Review
 📅 Day 5: Review
