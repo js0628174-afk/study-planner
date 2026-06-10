@@ -23,7 +23,8 @@ for day in range(1, days + 1):
         line = f"📅 Day {day}: {topics[index]}"
         index += 1
     else:
-        line = f"📅 Day {day}: Review"
+        review_topic = topics[(day - len(topics) - 1) % len(topics)]
+        line = f"📅 Day {day}: Review {review_topic}"
 
     print(line)
     plan_lines.append(line)
@@ -34,3 +35,4 @@ with open("study_plan.txt", "w", encoding="utf-8") as file:
     file.write(f"Study Plan for {subject}\n\n")
     for line in plan_lines:
         file.write(line + "\n")
+print("\n✅ Study plan saved to study_plan.txt")        
